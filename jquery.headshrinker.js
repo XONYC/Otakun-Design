@@ -31,14 +31,14 @@
         var defaults = {
             target: jQuery(this), // set target
             zindex: 99999, // set CSS z-index
-            shrinkBy: 2, // shrink by this multiple
+            shrinkBy: 0, // shrink by this multiple
             fontSize: "", // add font size in here
             shrinkMenu: false, // convert menu to hamburger in all instances
             revealAlign: "right", // left or right hamburger menu
             revealTop: "12px", // adjust top positioning of hamburger menu
             shrinkMenuTop: "69px", // adjust top positioning of the flyout menu
             menuSwitch: 768, // aimed at the mobile experience, when menu is this width, convert to hamburger
-            navTarget: 'nav', // this is the element WITHIN the cloned headshrinker bar
+            navTarget: 'navv', // this is the element WITHIN the cloned headshrinker bar
             mobileMenu: false // set to true if you want to remove the desktop menu and replace with headshrinker when in mobile view (menuSwitch)
         };
         var options = $.extend(defaults, options);
